@@ -59,8 +59,12 @@ GEMINI_API_KEY=your_api_key_here
 ```
 
 **Generate Test Data & Run:**
+
+**Note:** The required synthetic CSV files (`razorpay_settlements.csv`, `bank_statement.csv`, `merchant_ledger.csv`) are already included in this repository so you can run the app immediately. 
+   
+If you want to generate a fresh batch of randomized test data, you can run the generator script first:
 ```bash
-# Generates realistic synthetic CSVs with hidden edge cases
+# (Optional) Generate fresh realistic CSVs with hidden edge cases
 python generate_data.py
 
 # Runs the core matching engine (Passes 1, 2, and 3)
