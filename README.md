@@ -2,7 +2,7 @@
 
 **Track 04: AI Finance Controller — Razorpay AI Buildathon**
 
-ReconAgent is a lightweight, 3-pass reconciliation engine designed to solve the "three-way match" problem. When merchants receive a settlement from Razorpay, they have to align their internal Order Ledger, Razorpay's Settlement Report, and their actual Bank Statement. Due to timing lags, batched payouts, non-standard fee deductions, and accidental duplicates, these three sources rarely line up perfectly. ReconAgent automates the obvious matches and uses Google's Gemini 2.5 Flash to intelligently resolve the messy exceptions, providing a fully explainable audit trail.
+ReconAgent is a lightweight, 3-pass reconciliation engine designed to solve the "three-way match" problem. When merchants receive a settlement from Razorpay, they have to align their internal Order Ledger, Razorpay's Settlement Report, and their actual Bank Statement. Due to timing lags, batched payouts, non-standard fee deductions, and accidental duplicates, these three sources rarely line up perfectly. ReconAgent automates the obvious matches and uses Google's Gemini 3.5 Flash to intelligently resolve the messy exceptions, providing a fully explainable audit trail.
 
 ## The 3-Pass Architecture
        [Ledger]       [Razorpay]       [Bank]
