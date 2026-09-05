@@ -1,0 +1,478 @@
+[
+  {
+    "order_id": "ORD_1001",
+    "transaction_id": "TXN_2001",
+    "bank_line_id": "BNK_3001",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1002",
+    "transaction_id": "TXN_2002",
+    "bank_line_id": "BNK_3002",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1003",
+    "transaction_id": "TXN_2003",
+    "bank_line_id": "BNK_3003",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1004",
+    "transaction_id": "TXN_2004",
+    "bank_line_id": "BNK_3004",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1005",
+    "transaction_id": "TXN_2005",
+    "bank_line_id": "BNK_3005",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1006",
+    "transaction_id": "TXN_2006",
+    "bank_line_id": "BNK_3006",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1007",
+    "transaction_id": "TXN_2007",
+    "bank_line_id": "BNK_3007",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1008",
+    "transaction_id": "TXN_2008",
+    "bank_line_id": "BNK_3008",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1009",
+    "transaction_id": "TXN_2009",
+    "bank_line_id": "BNK_3009",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1010",
+    "transaction_id": "TXN_2010",
+    "bank_line_id": "BNK_3010",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1011",
+    "transaction_id": "TXN_2011",
+    "bank_line_id": "BNK_3011",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1012",
+    "transaction_id": "TXN_2012",
+    "bank_line_id": "BNK_3012",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1013",
+    "transaction_id": "TXN_2013",
+    "bank_line_id": "BNK_3013",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1014",
+    "transaction_id": "TXN_2014",
+    "bank_line_id": "BNK_3014",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1015",
+    "transaction_id": "TXN_2015",
+    "bank_line_id": "BNK_3015",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1016",
+    "transaction_id": "TXN_2016",
+    "bank_line_id": "BNK_3016",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1017",
+    "transaction_id": "TXN_2017",
+    "bank_line_id": "BNK_3017",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1018",
+    "transaction_id": "TXN_2018",
+    "bank_line_id": "BNK_3018",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1019",
+    "transaction_id": "TXN_2019",
+    "bank_line_id": "BNK_3019",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1020",
+    "transaction_id": "TXN_2020",
+    "bank_line_id": "BNK_3020",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1021",
+    "transaction_id": "TXN_2021",
+    "bank_line_id": "BNK_3021",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1022",
+    "transaction_id": "TXN_2022",
+    "bank_line_id": "BNK_3022",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1023",
+    "transaction_id": "TXN_2023",
+    "bank_line_id": "BNK_3023",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1024",
+    "transaction_id": "TXN_2024",
+    "bank_line_id": "BNK_3024",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1025",
+    "transaction_id": "TXN_2025",
+    "bank_line_id": "BNK_3025",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1026",
+    "transaction_id": "TXN_2026",
+    "bank_line_id": "BNK_3026",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1027",
+    "transaction_id": "TXN_2027",
+    "bank_line_id": "BNK_3027",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1028",
+    "transaction_id": "TXN_2028",
+    "bank_line_id": "BNK_3028",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1029",
+    "transaction_id": "TXN_2029",
+    "bank_line_id": "BNK_3029",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1030",
+    "transaction_id": "TXN_2030",
+    "bank_line_id": "BNK_3030",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1031",
+    "transaction_id": "TXN_2031",
+    "bank_line_id": "BNK_3031",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1032",
+    "transaction_id": "TXN_2032",
+    "bank_line_id": "BNK_3032",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1033",
+    "transaction_id": "TXN_2033",
+    "bank_line_id": "BNK_3033",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1034",
+    "transaction_id": "TXN_2034",
+    "bank_line_id": "BNK_3034",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1035",
+    "transaction_id": "TXN_2035",
+    "bank_line_id": "BNK_3035",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1036",
+    "transaction_id": "TXN_2036",
+    "bank_line_id": "BNK_3036",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1037",
+    "transaction_id": "TXN_2037",
+    "bank_line_id": "BNK_3037",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1038",
+    "transaction_id": "TXN_2038",
+    "bank_line_id": "BNK_3038",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1039",
+    "transaction_id": "TXN_2039",
+    "bank_line_id": "BNK_3039",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1040",
+    "transaction_id": "TXN_2040",
+    "bank_line_id": "BNK_3040",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1041",
+    "transaction_id": "TXN_2041",
+    "bank_line_id": "BNK_3041",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1042",
+    "transaction_id": "TXN_2042",
+    "bank_line_id": "BNK_3042",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1043",
+    "transaction_id": "TXN_2043",
+    "bank_line_id": "BNK_3043",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1044",
+    "transaction_id": "TXN_2044",
+    "bank_line_id": "BNK_3044",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1045",
+    "transaction_id": "TXN_2045",
+    "bank_line_id": "BNK_3045",
+    "match_type": "clean",
+    "description": "Clean 1-to-1 match across all three sources"
+  },
+  {
+    "order_id": "ORD_1046",
+    "transaction_id": "TXN_2046",
+    "bank_line_id": "BNK_3046",
+    "match_type": "timing_lag",
+    "description": "Bank credit delayed by 2 days"
+  },
+  {
+    "order_id": "ORD_1047",
+    "transaction_id": "TXN_2047",
+    "bank_line_id": "BNK_3047",
+    "match_type": "timing_lag",
+    "description": "Bank credit delayed by 3 days"
+  },
+  {
+    "order_id": "ORD_1048",
+    "transaction_id": "TXN_2048",
+    "bank_line_id": "BNK_3048",
+    "match_type": "timing_lag",
+    "description": "Bank credit delayed by 3 days"
+  },
+  {
+    "order_id": "ORD_1049",
+    "transaction_id": "TXN_2049",
+    "bank_line_id": "BNK_3049",
+    "match_type": "timing_lag",
+    "description": "Bank credit delayed by 2 days"
+  },
+  {
+    "order_id": "ORD_1050",
+    "transaction_id": "TXN_2050",
+    "bank_line_id": "BNK_3050",
+    "match_type": "timing_lag",
+    "description": "Bank credit delayed by 3 days"
+  },
+  {
+    "order_id": "ORD_1051",
+    "transaction_id": "TXN_2051",
+    "bank_line_id": "BNK_3051",
+    "match_type": "timing_lag",
+    "description": "Bank credit delayed by 2 days"
+  },
+  {
+    "order_id": "ORD_1052",
+    "transaction_id": "TXN_2052",
+    "bank_line_id": "BNK_3052",
+    "match_type": "timing_lag",
+    "description": "Bank credit delayed by 2 days"
+  },
+  {
+    "order_id": "ORD_1053",
+    "transaction_id": "TXN_2053",
+    "bank_line_id": "BNK_3053",
+    "match_type": "timing_lag",
+    "description": "Bank credit delayed by 3 days"
+  },
+  {
+    "order_id": "ORD_1054",
+    "transaction_id": "TXN_2054",
+    "bank_line_id": "BNK_3054",
+    "match_type": "fee_mismatch",
+    "description": "Fee charged at non-standard rate (3.5% instead of 2%)"
+  },
+  {
+    "order_id": "ORD_1055",
+    "transaction_id": "TXN_2055",
+    "bank_line_id": "BNK_3055",
+    "match_type": "fee_mismatch",
+    "description": "Fee charged at non-standard rate (3.5% instead of 2%)"
+  },
+  {
+    "order_id": "ORD_1056",
+    "transaction_id": "TXN_2056",
+    "bank_line_id": "BNK_3056",
+    "match_type": "fee_mismatch",
+    "description": "Fee charged at non-standard rate (3.5% instead of 2%)"
+  },
+  {
+    "order_id": "ORD_1057",
+    "transaction_id": "TXN_2057",
+    "bank_line_id": "BNK_3057",
+    "match_type": "fee_mismatch",
+    "description": "Fee charged at non-standard rate (3.5% instead of 2%)"
+  },
+  {
+    "order_id": "ORD_1058",
+    "transaction_id": "TXN_2058",
+    "bank_line_id": "BNK_3058",
+    "match_type": "fee_mismatch",
+    "description": "Fee charged at non-standard rate (3.5% instead of 2%)"
+  },
+  {
+    "batch_id": "BATCH_1",
+    "bank_line_id": "BNK_BATCH_1",
+    "order_ids": [
+      "ORD_1059",
+      "ORD_1060",
+      "ORD_1061"
+    ],
+    "transaction_ids": [
+      "TXN_2059",
+      "TXN_2060",
+      "TXN_2061"
+    ],
+    "match_type": "batched_settlement",
+    "total_amount": 8913.17,
+    "description": "Single bank credit covering 3 separate Razorpay transactions"
+  },
+  {
+    "batch_id": "BATCH_2",
+    "bank_line_id": "BNK_BATCH_2",
+    "order_ids": [
+      "ORD_1062",
+      "ORD_1063",
+      "ORD_1064"
+    ],
+    "transaction_ids": [
+      "TXN_2062",
+      "TXN_2063",
+      "TXN_2064"
+    ],
+    "match_type": "batched_settlement",
+    "total_amount": 10575.83,
+    "description": "Single bank credit covering 3 separate Razorpay transactions"
+  },
+  {
+    "entity_id": "ORD_1001",
+    "source": "ledger",
+    "match_type": "duplicate",
+    "description": "Accidental duplicate row in merchant ledger"
+  },
+  {
+    "entity_id": "BNK_3001_DUP",
+    "source": "bank",
+    "match_type": "duplicate",
+    "description": "Accidental duplicate entry in bank statement"
+  },
+  {
+    "entity_id": "BNK_ORPHAN_1",
+    "source": "bank",
+    "match_type": "orphan",
+    "description": "Bank account fee"
+  },
+  {
+    "entity_id": "BNK_ORPHAN_2",
+    "source": "bank",
+    "match_type": "orphan",
+    "description": "Bank interest credit"
+  },
+  {
+    "entity_id": "ORD_ABANDONED_1",
+    "source": "ledger",
+    "match_type": "orphan",
+    "description": "Failed order never processed by Razorpay"
+  },
+  {
+    "entity_id": "ORD_ABANDONED_2",
+    "source": "ledger",
+    "match_type": "orphan",
+    "description": "Pending/abandoned checkout"
+  }
+]
