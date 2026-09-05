@@ -29,7 +29,7 @@ ReconAgent is a lightweight, 3-pass reconciliation engine designed to solve the 
              v                                           |
     +------------------------------------------+         |
     |      PASS 3: AI EXCEPTION HANDLER        |         |
-    |  Gemini 2.5 Flash unbundles batches,     |         |
+    |  Gemini 3.5 Flash unbundles batches,     |         |
     |  flags duplicates, & writes reasoning    |         |
     +------------------------------------------+         |
                                          |               |
