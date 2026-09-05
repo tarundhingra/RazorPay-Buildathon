@@ -35,7 +35,6 @@ def display_tables(matches, exceptions):
     st.header("1. Matched Records (Pass 1 & 2)")
     if matches:
         df_matches = pd.DataFrame(matches)
-        # Reorder columns to look nice
         cols = ["method", "confidence", "ledger_id", "rzp_id", "bank_id", "reason"]
         st.dataframe(df_matches[cols], use_container_width=True)
     else:
@@ -64,7 +63,7 @@ def ask_the_agent(user_query, raw_log_data):
     """
     
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-3.5-flash-lite',
         contents=prompt
     )
     return response.text
@@ -74,18 +73,26 @@ def main():
     st.title("ReconAgent: AI-Powered Reconciliation")
     st.markdown("Automatically reconcile Razorpay, Bank, and Ledger records.")
 
+    # --- NEW: Use Session State to hide results until button is clicked ---
+    if "pipeline_run" not in st.session_state:
+        st.session_state.pipeline_run = False
+
     # 1. Run Pipeline Button
     if st.button("Run Recon Pipeline", type="primary"):
-        with st.spinner("Running Exact, Fuzzy, and AI passes..."):
+        with st.spinner("Running Exact, Fuzzy, and AI passes... Please wait."):
             recon_engine.main()
         st.success("Reconciliation complete! Audit log updated.")
+        # Mark the pipeline as successfully run in this browser session
+        st.session_state.pipeline_run = True  
 
-    # 2. Load Data
-    matches, exceptions = load_audit_log()
-
-    if not matches and not exceptions:
-        st.info("Click the button above to run the pipeline and see results.")
+    # If the button hasn't been clicked yet, show a welcome message and STOP running the rest of the page
+    if not st.session_state.pipeline_run:
+        st.info("👋 Welcome! Click the **Run Recon Pipeline** button above to start matching the records.")
         return
+    # ----------------------------------------------------------------------
+
+    # 2. Load Data (This now only happens AFTER the button is clicked)
+    matches, exceptions = load_audit_log()
 
     # 3. Show Tables
     display_tables(matches, exceptions)
