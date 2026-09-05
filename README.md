@@ -5,39 +5,39 @@
 ReconAgent is a lightweight, 3-pass reconciliation engine designed to solve the "three-way match" problem. When merchants receive a settlement from Razorpay, they have to align their internal Order Ledger, Razorpay's Settlement Report, and their actual Bank Statement. Due to timing lags, batched payouts, non-standard fee deductions, and accidental duplicates, these three sources rarely line up perfectly. ReconAgent automates the obvious matches and uses Google's Gemini 2.5 Flash to intelligently resolve the messy exceptions, providing a fully explainable audit trail.
 
 ## The 3-Pass Architecture
-```mermaid
-graph TD
-    %% Define the input data sources
-    subgraph Data Sources
-        L[Merchant Ledger] 
-        R[Razorpay Settlements] 
-        B[Bank Statement]
-    end
+  ## 🏗️ System Architecture
 
-    %% Define the matching engine
-    subgraph Core Engine: recon_engine.py
-        P1[Pass 1: Exact Match<br/><i>Instant 1:1 ID & Amount match</i>]
-        P2[Pass 2: Fuzzy Match<br/><i>Tolerance for slight fee & date gaps</i>]
-        P3[Pass 3: AI Exception Handler<br/><i>Gemini 2.5 Flash unbundles batches</i>]
-    end
-    
-    %% Define the outputs
-    subgraph Output & UI
-        AL[(Audit Log<br/>JSONL)]
-        UI[Streamlit Dashboard<br/><i>+ Interactive Agent Q&A</i>]
-    end
-
-    %% Draw the connections
-    L & R & B --> P1
-    P1 -->|Clean Matches| AL
-    P1 -->|Unmatched Leftovers| P2
-    
-    P2 -->|Fuzzy Matches| AL
-    P2 -->|Messy Leftovers| P3
-    
-    P3 -->|Batches, Orphans, Duplicates| AL
-    
-    AL --> UI
+       [Ledger]       [Razorpay]       [Bank]
+           \              |              /
+            \             |             /
+             v            v            v
+    +------------------------------------------+
+    |         PASS 1: EXACT MATCH              |
+    |  Instantly links perfect ID/Amount rows  |
+    +------------------------------------------+
+             |                           |
+        (Leftovers)                 (Matches)----> [ AUDIT LOG ]
+             |                                           ^
+             v                                           |
+    +------------------------------------------+         |
+    |         PASS 2: FUZZY MATCH              |         |
+    |  Handles 3-day delays & slight fee gaps  |         |
+    +------------------------------------------+         |
+             |                           |               |
+        (Leftovers)                 (Matches)------------+
+             |                                           |
+             v                                           |
+    +------------------------------------------+         |
+    |      PASS 3: AI EXCEPTION HANDLER        |         |
+    |  Gemini 2.5 Flash unbundles batches,     |         |
+    |  flags duplicates, & writes reasoning    |         |
+    +------------------------------------------+         |
+                                         |               |
+                                     (Results)-----------+
+                                                         |
+                                                         v
+                                              [ STREAMLIT DASHBOARD ]
+                                              [  + Agent Chatbox    ]
 
 **Design principle:** at every stage, if the system finds more than one equally valid candidate for a match, it does not guess — it flags the collision and routes it to the AI pass (and ultimately a human) rather than silently picking one. This is the core lesson from our own testing: a duplicate bank entry that's byte-for-byte identical to the original is fundamentally unresolvable by matching logic alone, and pretending otherwise produces silent, undetectable errors.
 
